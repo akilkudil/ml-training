@@ -1,0 +1,28 @@
+1.Launch ubuntu 18.04 deep learning base ami
+
+2. install miniconda
+
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+
+sh ./Miniconda3-latest-Linux-x86_64.sh
+
+source .bashrc
+
+conda -h
+
+conda -V
+
+
+conda create --name tf36
+conda activate tf36
+
+3. Install tensorflow
+
+conda install -c anaconda tensorflow-gpu
+
+4.conda install -c conda-forge jupyter
+
+5. conda install -c conda-forge keras
+
+6. conda install -c conda-forge matplotlib
+
